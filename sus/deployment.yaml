@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: minha-app
-          image: ghcr.io/marcelomscode/deploy-sus-argo:latest
+          image: ghcr.io/marcelomscode/minha-app:latest
           ports:
             - containerPort: 8080
           env:
